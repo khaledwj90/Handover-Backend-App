@@ -1,0 +1,36 @@
+components:
+  parameters:
+    merchantID:
+      in: header
+      name: merchantid
+      schema:
+        type: string
+      required: true
+      description: application send merchant id to use correct collection
+    deviceID:
+      in: header
+      name: deviceid
+      schema:
+        type: string
+      description: device uniq id
+    chanelID:
+      in: header
+      name: chanelid
+      schema:
+        enum: [order-app,  customer-app , pos-app]
+      description: chanel id of the incoming request
+    pagination:
+      type: object
+      properties:
+        pageNumber:
+          type: number
+        pageSize:
+          type: number
+  apiSecurity:
+    security:
+      - bearerAuth: []
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
