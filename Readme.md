@@ -18,12 +18,5 @@ DB_USER_NAME=<Mongo_DB_User_Name>
 DB_PASSWORD=<Mongo_DB_Password>
 DB_NAME=<Mongo_DB_Name> //ex Handover
 
-#Google API Configuration
-#GOOGLE_DISTANCE_URL=https://maps.googleapis.com/maps/api/distancematrix/json
-#GOOGLE_PLACES_API_KEY=AIzaSyCvgM54yXz80iTNFvmlURHTFYjD2dl_-0E
-#GOOGLE_GEOCODING_API_KEY=AIzaSyCdD19A5SGRMnr8NMR2rDTdEvYOtYQ6BlI
-#GOOGLE_DISTANCE_API_KEY=AIzaSyC_YngjAEcEwi2R5JUib1bXZ8rLglXYKiY
-#GOOGLE_SIGNIN_AUTH_CLIENT_ID=ko9lp0]
-#GOOGLE_SIGNIN_AUTH_CLIENT_SECRET=08CxVEuYxvzo_rQjh5Fwy_AX
 
 ```
